@@ -27,6 +27,7 @@ This assumes the path to composer.phar is in your path.
  git clone git@github.com:paleo9/big-dummy.git
  cd bigdummy
  composer.phar dump-autoload -o
+ ./vendor/bin/phpdoc -d App/ -t Documentation
 ```
 
 ## Best practices - TDD (Test Driven Development)
