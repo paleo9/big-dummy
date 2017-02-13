@@ -9,15 +9,25 @@ implemented are:
 * Ability to use Test Driven Development by means of the PhpUnit testing framework
 * The use of a dependency manager (Composer) to handle external packages
 
-This project is not a useful PHP application, but it *is* a working PHP application that makes use of useful tools to make a medium to large project manageable. It can be used as a ready made start for new projects.
+While this project is not a useful PHP application, it is a working PHP
+application that makes use of useful tools to make a medium to large project
+manageable. It can be used as a ready made start for new projects.
 
-It contains a single class with two methods. It is namespaced, the namespace may be changed by
+It contains a single class with two methods. It is namespaced, the namespace
+may be changed by
 * change the namespace in all your source files
 * edit the autoload section of composer.json.
 * cd to the project top level directory and enter the following command:
 * composer.phar dump-autoload -o
 
 This assumes the path to composer.phar is in your path.
+
+# To Build the App
+```bash
+ git clone git@github.com:paleo9/big-dummy.git
+ cd bigdummy
+ composer.phar dump-autoload -o
+```
 
 ## Best practices - TDD (Test Driven Development)
 
@@ -39,16 +49,17 @@ phpunit --bootstrap Classes/*.php  tests/ --colors=always
 ```
 ## Creating the documentation
 ```bash
-$ phpdoc -d ./App/Classes -t ./documentation
+phpdoc -d ./App/Classes -t ./documentation
 ```
 
 ## Questions
 
 ### Ten thousand directories for a quick demo - are you kidding?
-The demo itself contains only two directories, 'Classes' and 'tests', the rest
-are created by the use of development libraries - these will not appear in production.
-Be aware of a class containing only two methods, one of which is a constructor.
-It's probably not a class.
+When this dummy project is fully populated, i.e. after composer has been run,
+there are thousands of directories. The demo itself contains only two
+subdirectories, 'Classes' and 'tests', the rest are created by the of
+development libraries, in particular phpunit and phpdoc, these will not appear
+in production.
 
 ### There are a lot of comments, how much time does it waste?
 The comments are written in a format that makes it possible to produce
