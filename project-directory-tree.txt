@@ -1,0 +1,1319 @@
+.
+├── App
+│   ├── Classes
+│   └── tests
+├── documentation
+│   ├── classes
+│   ├── css
+│   │   └── phpdocumentor-clean-icons
+│   │       └── fonts
+│   ├── files
+│   ├── font
+│   ├── graphs
+│   ├── images
+│   │   └── iviewer
+│   ├── js
+│   │   └── ui
+│   │       └── 1.10.4
+│   ├── namespaces
+│   ├── phpdoc-cache-2e
+│   ├── phpdoc-cache-62
+│   └── reports
+└── vendor
+    ├── bin
+    ├── cilex
+    │   ├── cilex
+    │   │   ├── bin
+    │   │   ├── docs
+    │   │   ├── src
+    │   │   │   └── Cilex
+    │   │   │       ├── Command
+    │   │   │       └── Provider
+    │   │   └── tests
+    │   │       ├── Cilex
+    │   │       │   └── Tests
+    │   │       │       ├── Command
+    │   │       │       └── Provider
+    │   │       └── data
+    │   └── console-service-provider
+    │       └── src
+    │           └── Cilex
+    │               └── Provider
+    │                   └── Console
+    │                       └── Adapter
+    │                           └── Silex
+    ├── composer
+    ├── container-interop
+    │   └── container-interop
+    │       ├── docs
+    │       │   └── images
+    │       └── src
+    │           └── Interop
+    │               └── Container
+    │                   └── Exception
+    ├── doctrine
+    │   ├── annotations
+    │   │   └── lib
+    │   │       └── Doctrine
+    │   │           └── Common
+    │   │               └── Annotations
+    │   │                   └── Annotation
+    │   ├── instantiator
+    │   │   ├── src
+    │   │   │   └── Doctrine
+    │   │   │       └── Instantiator
+    │   │   │           └── Exception
+    │   │   └── tests
+    │   │       └── DoctrineTest
+    │   │           ├── InstantiatorPerformance
+    │   │           ├── InstantiatorTest
+    │   │           │   └── Exception
+    │   │           └── InstantiatorTestAsset
+    │   └── lexer
+    │       └── lib
+    │           └── Doctrine
+    │               └── Common
+    │                   └── Lexer
+    ├── erusev
+    │   └── parsedown
+    │       └── test
+    │           └── data
+    ├── herrera-io
+    │   ├── json
+    │   │   └── src
+    │   │       ├── lib
+    │   │       │   └── Herrera
+    │   │       │       └── Json
+    │   │       │           └── Exception
+    │   │       └── tests
+    │   │           └── Herrera
+    │   │               └── Json
+    │   │                   └── Tests
+    │   │                       └── Exception
+    │   └── phar-update
+    │       ├── res
+    │       └── src
+    │           ├── lib
+    │           │   └── Herrera
+    │           │       └── Phar
+    │           │           └── Update
+    │           │               └── Exception
+    │           └── tests
+    │               └── Herrera
+    │                   └── Phar
+    │                       └── Update
+    │                           └── Exception
+    ├── jms
+    │   ├── metadata
+    │   │   ├── src
+    │   │   │   └── Metadata
+    │   │   │       ├── Cache
+    │   │   │       └── Driver
+    │   │   └── tests
+    │   │       └── Metadata
+    │   │           └── Tests
+    │   │               ├── Cache
+    │   │               ├── Driver
+    │   │               │   └── Fixture
+    │   │               │       ├── A
+    │   │               │       ├── B
+    │   │               │       ├── C
+    │   │               │       │   └── SubDir
+    │   │               │       ├── D
+    │   │               │       └── T
+    │   │               └── Fixtures
+    │   │                   └── ComplexHierarchy
+    │   ├── parser-lib
+    │   │   ├── doc
+    │   │   ├── src
+    │   │   │   └── JMS
+    │   │   │       └── Parser
+    │   │   └── tests
+    │   │       └── JMS
+    │   │           └── Parser
+    │   │               └── Tests
+    │   └── serializer
+    │       ├── doc
+    │       │   ├── cookbook
+    │       │   └── reference
+    │       ├── src
+    │       │   └── JMS
+    │       │       └── Serializer
+    │       │           ├── Annotation
+    │       │           ├── Builder
+    │       │           ├── Construction
+    │       │           ├── ContextFactory
+    │       │           ├── EventDispatcher
+    │       │           │   └── Subscriber
+    │       │           ├── Exception
+    │       │           ├── Exclusion
+    │       │           ├── Handler
+    │       │           ├── Metadata
+    │       │           │   └── Driver
+    │       │           ├── Naming
+    │       │           ├── Twig
+    │       │           └── Util
+    │       └── tests
+    │           └── JMS
+    │               └── Serializer
+    │                   └── Tests
+    │                       ├── Exclusion
+    │                       ├── Fixtures
+    │                       │   ├── Discriminator
+    │                       │   ├── Doctrine
+    │                       │   │   └── SingleTableInheritance
+    │                       │   └── DoctrinePHPCR
+    │                       ├── Handler
+    │                       ├── Metadata
+    │                       │   └── Driver
+    │                       │       ├── php
+    │                       │       ├── xml
+    │                       │       │   ├── case
+    │                       │       │   ├── exclude_all
+    │                       │       │   └── exclude_none
+    │                       │       └── yml
+    │                       │           ├── accessor
+    │                       │           ├── accessor_inferred
+    │                       │           ├── case
+    │                       │           ├── exclude_all
+    │                       │           ├── exclude_none
+    │                       │           └── short_expose
+    │                       ├── Serializer
+    │                       │   ├── Doctrine
+    │                       │   ├── EventDispatcher
+    │                       │   │   └── Subscriber
+    │                       │   ├── Naming
+    │                       │   ├── xml
+    │                       │   └── yml
+    │                       └── Twig
+    ├── justinrainbow
+    │   └── json-schema
+    │       ├── bin
+    │       └── src
+    │           └── JsonSchema
+    │               ├── Constraints
+    │               ├── Exception
+    │               └── Uri
+    │                   └── Retrievers
+    ├── kherge
+    │   └── version
+    │       └── src
+    │           ├── lib
+    │           │   └── KevinGH
+    │           │       └── Version
+    │           └── tests
+    │               └── KevinGH
+    │                   └── Version
+    ├── monolog
+    │   └── monolog
+    │       ├── doc
+    │       ├── src
+    │       │   └── Monolog
+    │       │       ├── Formatter
+    │       │       ├── Handler
+    │       │       │   ├── Curl
+    │       │       │   ├── FingersCrossed
+    │       │       │   ├── Slack
+    │       │       │   └── SyslogUdp
+    │       │       └── Processor
+    │       └── tests
+    │           └── Monolog
+    │               ├── Formatter
+    │               ├── Handler
+    │               │   ├── Fixtures
+    │               │   └── Slack
+    │               └── Processor
+    ├── myclabs
+    │   └── deep-copy
+    │       ├── doc
+    │       └── src
+    │           └── DeepCopy
+    │               ├── Exception
+    │               ├── Filter
+    │               │   └── Doctrine
+    │               ├── Matcher
+    │               │   └── Doctrine
+    │               ├── Reflection
+    │               ├── TypeFilter
+    │               │   └── Spl
+    │               └── TypeMatcher
+    ├── nikic
+    │   └── php-parser
+    │       ├── bin
+    │       ├── doc
+    │       │   └── component
+    │       ├── grammar
+    │       ├── lib
+    │       │   └── PhpParser
+    │       │       ├── Builder
+    │       │       ├── Comment
+    │       │       ├── Lexer
+    │       │       ├── Node
+    │       │       │   ├── Expr
+    │       │       │   │   ├── AssignOp
+    │       │       │   │   ├── BinaryOp
+    │       │       │   │   └── Cast
+    │       │       │   ├── Name
+    │       │       │   ├── Scalar
+    │       │       │   │   └── MagicConst
+    │       │       │   └── Stmt
+    │       │       │       └── TraitUseAdaptation
+    │       │       ├── NodeVisitor
+    │       │       ├── PrettyPrinter
+    │       │       ├── Serializer
+    │       │       └── Unserializer
+    │       ├── test
+    │       │   ├── code
+    │       │   │   ├── parser
+    │       │   │   │   ├── errorHandling
+    │       │   │   │   ├── expr
+    │       │   │   │   │   └── fetchAndCall
+    │       │   │   │   ├── scalar
+    │       │   │   │   └── stmt
+    │       │   │   │       ├── class
+    │       │   │   │       ├── function
+    │       │   │   │       ├── loop
+    │       │   │   │       └── namespace
+    │       │   │   └── prettyPrinter
+    │       │   └── PhpParser
+    │       │       ├── Builder
+    │       │       ├── Lexer
+    │       │       ├── Node
+    │       │       │   ├── Scalar
+    │       │       │   └── Stmt
+    │       │       ├── NodeVisitor
+    │       │       ├── Serializer
+    │       │       └── Unserializer
+    │       └── test_old
+    ├── phpcollection
+    │   └── phpcollection
+    │       ├── doc
+    │       ├── src
+    │       │   └── PhpCollection
+    │       │       └── ObjectBasicsHandler
+    │       └── tests
+    │           └── PhpCollection
+    │               └── Tests
+    ├── phpdocumentor
+    │   ├── fileset
+    │   │   ├── src
+    │   │   │   └── phpDocumentor
+    │   │   │       └── Fileset
+    │   │   │           └── Collection
+    │   │   └── tests
+    │   │       ├── common
+    │   │       ├── data
+    │   │       └── unit
+    │   │           └── phpDocumentor
+    │   │               └── Fileset
+    │   │                   └── Collection
+    │   ├── graphviz
+    │   │   ├── src
+    │   │   │   └── phpDocumentor
+    │   │   │       └── GraphViz
+    │   │   └── tests
+    │   │       └── phpDocumentor
+    │   │           └── GraphViz
+    │   │               └── Test
+    │   ├── phpdocumentor
+    │   │   ├── bin
+    │   │   │   └── utils
+    │   │   ├── data
+    │   │   │   └── templates
+    │   │   │       ├── abstract
+    │   │   │       │   ├── api-doc
+    │   │   │       │   ├── chrome
+    │   │   │       │   ├── css
+    │   │   │       │   ├── images
+    │   │   │       │   │   └── icons
+    │   │   │       │   ├── js
+    │   │   │       │   └── sidebar
+    │   │   │       │       └── sections
+    │   │   │       ├── checkstyle
+    │   │   │       ├── clean
+    │   │   │       │   ├── css
+    │   │   │       │   │   └── phpdocumentor-clean-icons
+    │   │   │       │   │       └── fonts
+    │   │   │       │   ├── elements
+    │   │   │       │   ├── font
+    │   │   │       │   ├── graphs
+    │   │   │       │   ├── images
+    │   │   │       │   │   └── iviewer
+    │   │   │       │   ├── js
+    │   │   │       │   │   └── ui
+    │   │   │       │   │       └── 1.10.4
+    │   │   │       │   └── reports
+    │   │   │       ├── new-black
+    │   │   │       │   ├── css
+    │   │   │       │   │   ├── images
+    │   │   │       │   │   └── phpdoc
+    │   │   │       │   │       └── images
+    │   │   │       │   │           └── icons
+    │   │   │       │   ├── js
+    │   │   │       │   └── search
+    │   │   │       ├── old-ocean
+    │   │   │       │   ├── css
+    │   │   │       │   │   ├── black-tie
+    │   │   │       │   │   │   └── images
+    │   │   │       │   │   └── images
+    │   │   │       │   ├── images
+    │   │   │       │   │   └── icons
+    │   │   │       │   └── js
+    │   │   │       ├── responsive
+    │   │   │       │   ├── css
+    │   │   │       │   ├── elements
+    │   │   │       │   ├── graphs
+    │   │   │       │   ├── img
+    │   │   │       │   │   ├── icons
+    │   │   │       │   │   └── iviewer
+    │   │   │       │   ├── js
+    │   │   │       │   │   ├── jqplot
+    │   │   │       │   │   │   └── plugins
+    │   │   │       │   │   └── prettify
+    │   │   │       │   └── reports
+    │   │   │       ├── responsive-twig
+    │   │   │       │   ├── base
+    │   │   │       │   ├── graphs
+    │   │   │       │   └── reports
+    │   │   │       ├── xml
+    │   │   │       └── zend
+    │   │   │           ├── css
+    │   │   │           │   ├── black-tie
+    │   │   │           │   │   └── images
+    │   │   │           │   └── phpdoc
+    │   │   │           │       └── images
+    │   │   │           │           └── icons
+    │   │   │           ├── images
+    │   │   │           └── js
+    │   │   └── src
+    │   │       ├── Cilex
+    │   │       │   └── Provider
+    │   │       └── phpDocumentor
+    │   │           ├── Command
+    │   │           │   ├── Helper
+    │   │           │   ├── Phar
+    │   │           │   └── Project
+    │   │           ├── Compiler
+    │   │           │   ├── Linker
+    │   │           │   └── Pass
+    │   │           ├── Configuration
+    │   │           │   ├── Merger
+    │   │           │   │   └── Annotation
+    │   │           │   └── Resources
+    │   │           ├── Console
+    │   │           │   ├── Input
+    │   │           │   └── Output
+    │   │           ├── Descriptor
+    │   │           │   ├── Builder
+    │   │           │   │   └── Reflector
+    │   │           │   │       └── Tags
+    │   │           │   ├── Cache
+    │   │           │   ├── Example
+    │   │           │   ├── Exception
+    │   │           │   ├── Filter
+    │   │           │   ├── Interfaces
+    │   │           │   ├── ProjectDescriptor
+    │   │           │   ├── Tag
+    │   │           │   │   └── BaseTypes
+    │   │           │   ├── Type
+    │   │           │   └── Validator
+    │   │           ├── Event
+    │   │           ├── Parser
+    │   │           │   ├── Command
+    │   │           │   │   └── Project
+    │   │           │   ├── Configuration
+    │   │           │   ├── Event
+    │   │           │   ├── Exception
+    │   │           │   ├── Messages
+    │   │           │   └── Util
+    │   │           ├── Partials
+    │   │           │   └── Exception
+    │   │           ├── Plugin
+    │   │           │   ├── Core
+    │   │           │   │   ├── Descriptor
+    │   │           │   │   │   └── Validator
+    │   │           │   │   │       ├── Constraints
+    │   │           │   │   │       │   ├── Classes
+    │   │           │   │   │       │   ├── Functions
+    │   │           │   │   │       │   └── Property
+    │   │           │   │   │       └── Functions
+    │   │           │   │   ├── Messages
+    │   │           │   │   ├── Transformer
+    │   │           │   │   │   ├── Behaviour
+    │   │           │   │   │   │   └── Tag
+    │   │           │   │   │   └── Writer
+    │   │           │   │   │       └── Xml
+    │   │           │   │   └── Xslt
+    │   │           │   ├── Graphs
+    │   │           │   │   └── Writer
+    │   │           │   ├── LegacyNamespaceConverter
+    │   │           │   │   └── Tests
+    │   │           │   ├── Scrybe
+    │   │           │   │   ├── Command
+    │   │           │   │   │   └── Manual
+    │   │           │   │   ├── Converter
+    │   │           │   │   │   ├── Definition
+    │   │           │   │   │   ├── Exception
+    │   │           │   │   │   ├── Format
+    │   │           │   │   │   │   └── Exception
+    │   │           │   │   │   ├── Metadata
+    │   │           │   │   │   │   └── TableOfContents
+    │   │           │   │   │   └── RestructuredText
+    │   │           │   │   │       ├── Directives
+    │   │           │   │   │       ├── Roles
+    │   │           │   │   │       └── Visitors
+    │   │           │   │   ├── data
+    │   │           │   │   │   └── templates
+    │   │           │   │   │       └── default
+    │   │           │   │   │           ├── css
+    │   │           │   │   │           ├── img
+    │   │           │   │   │           └── js
+    │   │           │   │   │               └── prettify
+    │   │           │   │   ├── docs
+    │   │           │   │   │   ├── commands
+    │   │           │   │   │   ├── diagrams
+    │   │           │   │   │   ├── images
+    │   │           │   │   │   └── internals
+    │   │           │   │   │       ├── converters
+    │   │           │   │   │       ├── images
+    │   │           │   │   │       └── metadata
+    │   │           │   │   ├── Template
+    │   │           │   │   └── tests
+    │   │           │   │       └── phpDocumentor
+    │   │           │   │           └── Scrybe
+    │   │           │   │               ├── Converter
+    │   │           │   │               │   ├── Metadata
+    │   │           │   │               │   │   └── TableOfContents
+    │   │           │   │               │   └── RestructuredText
+    │   │           │   │               │       └── Visitors
+    │   │           │   │               └── Template
+    │   │           │   │                   └── Mock
+    │   │           │   └── Twig
+    │   │           │       └── Writer
+    │   │           ├── Transformer
+    │   │           │   ├── Behaviour
+    │   │           │   ├── Command
+    │   │           │   │   ├── Project
+    │   │           │   │   └── Template
+    │   │           │   ├── Configuration
+    │   │           │   │   └── Transformations
+    │   │           │   ├── Event
+    │   │           │   ├── Exception
+    │   │           │   ├── Router
+    │   │           │   │   ├── Matcher
+    │   │           │   │   └── UrlGenerator
+    │   │           │   │       └── Standard
+    │   │           │   ├── Template
+    │   │           │   └── Writer
+    │   │           │       └── Exception
+    │   │           └── Translator
+    │   ├── reflection
+    │   │   ├── src
+    │   │   │   └── phpDocumentor
+    │   │   │       └── Reflection
+    │   │   │           ├── ClassReflector
+    │   │   │           ├── Event
+    │   │   │           ├── Exception
+    │   │   │           └── FunctionReflector
+    │   │   └── tests
+    │   │       ├── mocks
+    │   │       │   └── phpDocumentor
+    │   │       │       └── Reflection
+    │   │       └── unit
+    │   │           └── phpDocumentor
+    │   │               └── Reflection
+    │   └── reflection-docblock
+    │       ├── src
+    │       │   └── phpDocumentor
+    │       │       └── Reflection
+    │       │           └── DocBlock
+    │       │               ├── Tag
+    │       │               └── Type
+    │       └── tests
+    │           └── phpDocumentor
+    │               └── Reflection
+    │                   └── DocBlock
+    │                       ├── Tag
+    │                       └── Type
+    ├── phpoption
+    │   └── phpoption
+    │       ├── src
+    │       │   └── PhpOption
+    │       └── tests
+    │           └── PhpOption
+    │               └── Tests
+    ├── phpspec
+    │   └── prophecy
+    │       ├── fixtures
+    │       ├── spec
+    │       │   └── Prophecy
+    │       │       ├── Argument
+    │       │       │   └── Token
+    │       │       ├── Call
+    │       │       ├── Comparator
+    │       │       ├── Doubler
+    │       │       │   ├── ClassPatch
+    │       │       │   └── Generator
+    │       │       │       └── Node
+    │       │       ├── Exception
+    │       │       │   ├── Call
+    │       │       │   ├── Doubler
+    │       │       │   ├── Prediction
+    │       │       │   └── Prophecy
+    │       │       ├── Prediction
+    │       │       ├── Promise
+    │       │       ├── Prophecy
+    │       │       └── Util
+    │       ├── src
+    │       │   └── Prophecy
+    │       │       ├── Argument
+    │       │       │   └── Token
+    │       │       ├── Call
+    │       │       ├── Comparator
+    │       │       ├── Doubler
+    │       │       │   ├── ClassPatch
+    │       │       │   └── Generator
+    │       │       │       └── Node
+    │       │       ├── Exception
+    │       │       │   ├── Call
+    │       │       │   ├── Doubler
+    │       │       │   ├── Prediction
+    │       │       │   └── Prophecy
+    │       │       ├── PhpDocumentor
+    │       │       ├── Prediction
+    │       │       ├── Promise
+    │       │       ├── Prophecy
+    │       │       └── Util
+    │       └── tests
+    │           └── Doubler
+    │               └── Generator
+    ├── phpunit
+    │   ├── dbunit
+    │   │   ├── build
+    │   │   ├── samples
+    │   │   │   └── BankAccountDB
+    │   │   │       └── _files
+    │   │   ├── src
+    │   │   │   └── Extensions
+    │   │   │       └── Database
+    │   │   │           ├── Constraint
+    │   │   │           ├── DataSet
+    │   │   │           │   ├── Persistors
+    │   │   │           │   └── Specs
+    │   │   │           ├── DB
+    │   │   │           │   └── MetaData
+    │   │   │           ├── Operation
+    │   │   │           └── UI
+    │   │   │               ├── Mediums
+    │   │   │               └── Modes
+    │   │   │                   └── ExportDataSet
+    │   │   └── tests
+    │   │       ├── Constraint
+    │   │       ├── DataSet
+    │   │       ├── DB
+    │   │       ├── _files
+    │   │       │   ├── CsvDataSets
+    │   │       │   ├── XmlDataSets
+    │   │       │   └── YamlDataSets
+    │   │       └── Operation
+    │   ├── php-code-coverage
+    │   │   ├── src
+    │   │   │   ├── Driver
+    │   │   │   ├── Exception
+    │   │   │   ├── Node
+    │   │   │   └── Report
+    │   │   │       ├── Html
+    │   │   │       │   └── Renderer
+    │   │   │       │       └── Template
+    │   │   │       │           ├── css
+    │   │   │       │           ├── fonts
+    │   │   │       │           └── js
+    │   │   │       └── Xml
+    │   │   └── tests
+    │   │       ├── _files
+    │   │       │   └── Report
+    │   │       │       ├── HTML
+    │   │       │       │   ├── CoverageForBankAccount
+    │   │       │       │   ├── CoverageForClassWithAnonymousFunction
+    │   │       │       │   └── CoverageForFileWithIgnoredLines
+    │   │       │       └── XML
+    │   │       │           ├── CoverageForBankAccount
+    │   │       │           ├── CoverageForClassWithAnonymousFunction
+    │   │       │           └── CoverageForFileWithIgnoredLines
+    │   │       └── tests
+    │   ├── php-file-iterator
+    │   │   └── src
+    │   ├── php-invoker
+    │   │   ├── src
+    │   │   └── tests
+    │   │       └── _fixture
+    │   ├── php-text-template
+    │   │   └── src
+    │   ├── php-timer
+    │   │   ├── src
+    │   │   └── tests
+    │   ├── php-token-stream
+    │   │   ├── build
+    │   │   ├── src
+    │   │   │   └── Token
+    │   │   │       └── Stream
+    │   │   └── tests
+    │   │       ├── _fixture
+    │   │       └── Token
+    │   ├── phpunit
+    │   │   ├── src
+    │   │   │   ├── Extensions
+    │   │   │   ├── ForwardCompatibility
+    │   │   │   ├── Framework
+    │   │   │   │   ├── Assert
+    │   │   │   │   ├── Constraint
+    │   │   │   │   │   └── JsonMatches
+    │   │   │   │   ├── Error
+    │   │   │   │   └── TestSuite
+    │   │   │   ├── Runner
+    │   │   │   │   └── Filter
+    │   │   │   │       └── Group
+    │   │   │   ├── TextUI
+    │   │   │   └── Util
+    │   │   │       ├── Log
+    │   │   │       ├── PHP
+    │   │   │       │   └── Template
+    │   │   │       └── TestDox
+    │   │   │           └── ResultPrinter
+    │   │   └── tests
+    │   │       ├── Extensions
+    │   │       ├── Fail
+    │   │       ├── _files
+    │   │       │   ├── Inheritance
+    │   │       │   └── JsonData
+    │   │       ├── Framework
+    │   │       │   └── Constraint
+    │   │       │       └── JsonMatches
+    │   │       ├── Regression
+    │   │       │   ├── GitHub
+    │   │       │   │   ├── 1149
+    │   │       │   │   ├── 1216
+    │   │       │   │   ├── 1265
+    │   │       │   │   ├── 1330
+    │   │       │   │   ├── 1335
+    │   │       │   │   ├── 1337
+    │   │       │   │   ├── 1348
+    │   │       │   │   ├── 1351
+    │   │       │   │   ├── 1374
+    │   │       │   │   ├── 1437
+    │   │       │   │   ├── 1468
+    │   │       │   │   ├── 1471
+    │   │       │   │   ├── 1472
+    │   │       │   │   ├── 1570
+    │   │       │   │   ├── 2158
+    │   │       │   │   ├── 244
+    │   │       │   │   ├── 322
+    │   │       │   │   ├── 433
+    │   │       │   │   ├── 445
+    │   │       │   │   ├── 498
+    │   │       │   │   ├── 503
+    │   │       │   │   ├── 581
+    │   │       │   │   ├── 74
+    │   │       │   │   ├── 765
+    │   │       │   │   ├── 797
+    │   │       │   │   └── 873
+    │   │       │   └── Trac
+    │   │       │       ├── 1021
+    │   │       │       ├── 523
+    │   │       │       ├── 578
+    │   │       │       ├── 684
+    │   │       │       └── 783
+    │   │       ├── Runner
+    │   │       ├── TextUI
+    │   │       │   └── _files
+    │   │       └── Util
+    │   │           └── TestDox
+    │   └── phpunit-mock-objects
+    │       ├── build
+    │       ├── src
+    │       │   └── Framework
+    │       │       └── MockObject
+    │       │           ├── Builder
+    │       │           ├── Exception
+    │       │           ├── Generator
+    │       │           ├── Invocation
+    │       │           ├── Matcher
+    │       │           └── Stub
+    │       └── tests
+    │           ├── _fixture
+    │           └── MockObject
+    │               ├── Builder
+    │               ├── Generator
+    │               ├── Invocation
+    │               └── Matcher
+    ├── pimple
+    │   └── pimple
+    │       ├── lib
+    │       └── tests
+    │           └── Pimple
+    │               └── Tests
+    ├── psr
+    │   └── log
+    │       └── Psr
+    │           └── Log
+    │               └── Test
+    ├── sebastian
+    │   ├── code-unit-reverse-lookup
+    │   │   ├── src
+    │   │   └── tests
+    │   ├── comparator
+    │   │   ├── build
+    │   │   ├── src
+    │   │   └── tests
+    │   │       └── _files
+    │   ├── diff
+    │   │   ├── src
+    │   │   │   └── LCS
+    │   │   └── tests
+    │   │       ├── fixtures
+    │   │       └── LCS
+    │   ├── environment
+    │   │   ├── src
+    │   │   └── tests
+    │   ├── exporter
+    │   │   ├── src
+    │   │   └── tests
+    │   ├── global-state
+    │   │   ├── src
+    │   │   └── tests
+    │   │       └── _fixture
+    │   ├── object-enumerator
+    │   │   ├── src
+    │   │   └── tests
+    │   ├── recursion-context
+    │   │   ├── src
+    │   │   └── tests
+    │   ├── resource-operations
+    │   │   ├── build
+    │   │   └── src
+    │   └── version
+    │       └── src
+    ├── seld
+    │   └── jsonlint
+    │       ├── bin
+    │       ├── src
+    │       │   └── Seld
+    │       │       └── JsonLint
+    │       └── tests
+    ├── symfony
+    │   ├── config
+    │   │   ├── Definition
+    │   │   │   ├── Builder
+    │   │   │   ├── Dumper
+    │   │   │   └── Exception
+    │   │   ├── Exception
+    │   │   ├── Loader
+    │   │   ├── Resource
+    │   │   ├── Tests
+    │   │   │   ├── Definition
+    │   │   │   │   ├── Builder
+    │   │   │   │   └── Dumper
+    │   │   │   ├── Exception
+    │   │   │   ├── Fixtures
+    │   │   │   │   ├── Again
+    │   │   │   │   ├── Builder
+    │   │   │   │   ├── Configuration
+    │   │   │   │   └── Util
+    │   │   │   ├── Loader
+    │   │   │   ├── Resource
+    │   │   │   └── Util
+    │   │   └── Util
+    │   ├── console
+    │   │   ├── Command
+    │   │   ├── Descriptor
+    │   │   ├── Event
+    │   │   ├── Exception
+    │   │   ├── Formatter
+    │   │   ├── Helper
+    │   │   ├── Input
+    │   │   ├── Logger
+    │   │   ├── Output
+    │   │   ├── Question
+    │   │   ├── Resources
+    │   │   │   └── bin
+    │   │   ├── Style
+    │   │   ├── Tester
+    │   │   └── Tests
+    │   │       ├── Command
+    │   │       ├── Descriptor
+    │   │       ├── Fixtures
+    │   │       │   └── Style
+    │   │       │       └── SymfonyStyle
+    │   │       │           ├── command
+    │   │       │           └── output
+    │   │       ├── Formatter
+    │   │       ├── Helper
+    │   │       ├── Input
+    │   │       ├── Logger
+    │   │       ├── Output
+    │   │       ├── Style
+    │   │       └── Tester
+    │   ├── debug
+    │   │   ├── Exception
+    │   │   ├── FatalErrorHandler
+    │   │   ├── Resources
+    │   │   │   └── ext
+    │   │   │       └── tests
+    │   │   └── Tests
+    │   │       ├── Exception
+    │   │       ├── FatalErrorHandler
+    │   │       ├── Fixtures
+    │   │       │   └── psr4
+    │   │       └── Fixtures2
+    │   ├── event-dispatcher
+    │   │   ├── Debug
+    │   │   ├── DependencyInjection
+    │   │   └── Tests
+    │   │       ├── Debug
+    │   │       └── DependencyInjection
+    │   ├── filesystem
+    │   │   ├── Exception
+    │   │   └── Tests
+    │   │       └── Fixtures
+    │   │           └── MockStream
+    │   ├── finder
+    │   │   ├── Adapter
+    │   │   ├── Comparator
+    │   │   ├── Exception
+    │   │   ├── Expression
+    │   │   ├── Iterator
+    │   │   ├── Shell
+    │   │   └── Tests
+    │   │       ├── Comparator
+    │   │       ├── Expression
+    │   │       ├── FakeAdapter
+    │   │       ├── Fixtures
+    │   │       │   ├── A
+    │   │       │   │   └── B
+    │   │       │   │       └── C
+    │   │       │   ├── copy
+    │   │       │   │   └── A
+    │   │       │   │       └── B
+    │   │       │   │           └── C
+    │   │       │   ├── one
+    │   │       │   │   └── b
+    │   │       │   ├── r+e.gex[c]a(r)s
+    │   │       │   │   └── dir
+    │   │       │   └── with\ space
+    │   │       ├── Iterator
+    │   │       └── Shell
+    │   ├── polyfill-mbstring
+    │   │   └── Resources
+    │   │       └── unidata
+    │   ├── process
+    │   │   ├── Exception
+    │   │   ├── Pipes
+    │   │   └── Tests
+    │   ├── stopwatch
+    │   │   └── Tests
+    │   ├── translation
+    │   │   ├── Catalogue
+    │   │   ├── DataCollector
+    │   │   ├── Dumper
+    │   │   ├── Exception
+    │   │   ├── Extractor
+    │   │   ├── Loader
+    │   │   │   └── schema
+    │   │   │       └── dic
+    │   │   │           └── xliff-core
+    │   │   ├── Tests
+    │   │   │   ├── Catalogue
+    │   │   │   ├── DataCollector
+    │   │   │   ├── Dumper
+    │   │   │   ├── fixtures
+    │   │   │   │   └── resourcebundle
+    │   │   │   │       ├── corrupted
+    │   │   │   │       ├── dat
+    │   │   │   │       └── res
+    │   │   │   ├── Loader
+    │   │   │   ├── Util
+    │   │   │   └── Writer
+    │   │   ├── Util
+    │   │   └── Writer
+    │   ├── validator
+    │   │   ├── Constraints
+    │   │   │   └── Collection
+    │   │   ├── Context
+    │   │   ├── Exception
+    │   │   ├── Mapping
+    │   │   │   ├── Cache
+    │   │   │   ├── Factory
+    │   │   │   └── Loader
+    │   │   │       └── schema
+    │   │   │           └── dic
+    │   │   │               └── constraint-mapping
+    │   │   ├── Resources
+    │   │   │   └── translations
+    │   │   ├── Tests
+    │   │   │   ├── Constraints
+    │   │   │   │   └── Fixtures
+    │   │   │   ├── Fixtures
+    │   │   │   ├── Mapping
+    │   │   │   │   ├── Cache
+    │   │   │   │   ├── Factory
+    │   │   │   │   └── Loader
+    │   │   │   ├── Resources
+    │   │   │   ├── Util
+    │   │   │   └── Validator
+    │   │   ├── Util
+    │   │   ├── Validator
+    │   │   └── Violation
+    │   └── yaml
+    │       ├── Command
+    │       ├── Exception
+    │       └── Tests
+    │           ├── Command
+    │           └── Fixtures
+    ├── twig
+    │   └── twig
+    │       ├── doc
+    │       │   ├── filters
+    │       │   ├── functions
+    │       │   ├── tags
+    │       │   └── tests
+    │       ├── ext
+    │       │   └── twig
+    │       ├── lib
+    │       │   └── Twig
+    │       │       ├── Cache
+    │       │       ├── Error
+    │       │       ├── Extension
+    │       │       ├── Filter
+    │       │       ├── Function
+    │       │       ├── Loader
+    │       │       ├── Node
+    │       │       │   └── Expression
+    │       │       │       ├── Binary
+    │       │       │       ├── Filter
+    │       │       │       ├── Test
+    │       │       │       └── Unary
+    │       │       ├── NodeVisitor
+    │       │       ├── Profiler
+    │       │       │   ├── Dumper
+    │       │       │   ├── Node
+    │       │       │   └── NodeVisitor
+    │       │       ├── Sandbox
+    │       │       ├── Test
+    │       │       ├── TokenParser
+    │       │       └── Util
+    │       └── test
+    │           └── Twig
+    │               └── Tests
+    │                   ├── Cache
+    │                   ├── Extension
+    │                   ├── Fixtures
+    │                   │   ├── autoescape
+    │                   │   ├── errors
+    │                   │   ├── exceptions
+    │                   │   ├── expressions
+    │                   │   ├── filters
+    │                   │   ├── functions
+    │                   │   │   └── include
+    │                   │   ├── macros
+    │                   │   ├── regression
+    │                   │   ├── tags
+    │                   │   │   ├── autoescape
+    │                   │   │   ├── block
+    │                   │   │   ├── embed
+    │                   │   │   ├── filter
+    │                   │   │   ├── for
+    │                   │   │   ├── if
+    │                   │   │   ├── include
+    │                   │   │   ├── inheritance
+    │                   │   │   ├── macro
+    │                   │   │   ├── raw
+    │                   │   │   ├── sandbox
+    │                   │   │   ├── set
+    │                   │   │   ├── spaceless
+    │                   │   │   ├── use
+    │                   │   │   ├── verbatim
+    │                   │   │   └── with
+    │                   │   └── tests
+    │                   ├── LegacyFixtures
+    │                   │   ├── autoescape
+    │                   │   └── functions
+    │                   ├── Loader
+    │                   │   └── Fixtures
+    │                   │       ├── inheritance
+    │                   │       ├── named
+    │                   │       ├── named_bis
+    │                   │       ├── named_final
+    │                   │       ├── named_quater
+    │                   │       ├── named_ter
+    │                   │       ├── normal
+    │                   │       ├── normal_bis
+    │                   │       ├── normal_final
+    │                   │       ├── normal_ter
+    │                   │       ├── phar
+    │                   │       └── themes
+    │                   │           ├── theme1
+    │                   │           └── theme2
+    │                   ├── Node
+    │                   │   └── Expression
+    │                   │       ├── Binary
+    │                   │       ├── PHP53
+    │                   │       └── Unary
+    │                   ├── NodeVisitor
+    │                   └── Profiler
+    │                       └── Dumper
+    ├── zendframework
+    │   ├── zend-cache
+    │   │   ├── benchmark
+    │   │   ├── doc
+    │   │   │   └── book
+    │   │   │       ├── pattern
+    │   │   │       └── storage
+    │   │   └── src
+    │   │       ├── Exception
+    │   │       ├── Pattern
+    │   │       ├── Service
+    │   │       └── Storage
+    │   │           ├── Adapter
+    │   │           └── Plugin
+    │   ├── zend-config
+    │   │   ├── doc
+    │   │   │   └── book
+    │   │   └── src
+    │   │       ├── Exception
+    │   │       ├── Processor
+    │   │       ├── Reader
+    │   │       └── Writer
+    │   ├── zend-eventmanager
+    │   │   └── src
+    │   │       ├── Exception
+    │   │       ├── Filter
+    │   │       └── Test
+    │   ├── zend-filter
+    │   │   ├── doc
+    │   │   │   └── book
+    │   │   └── src
+    │   │       ├── Compress
+    │   │       ├── Encrypt
+    │   │       ├── Exception
+    │   │       ├── File
+    │   │       └── Word
+    │   │           └── Service
+    │   ├── zend-hydrator
+    │   │   └── src
+    │   │       ├── Aggregate
+    │   │       ├── Exception
+    │   │       ├── Filter
+    │   │       ├── Iterator
+    │   │       ├── NamingStrategy
+    │   │       └── Strategy
+    │   │           └── Exception
+    │   ├── zend-i18n
+    │   │   ├── doc
+    │   │   │   └── book
+    │   │   └── src
+    │   │       ├── Exception
+    │   │       ├── Filter
+    │   │       ├── Translator
+    │   │       │   ├── Loader
+    │   │       │   └── Plural
+    │   │       ├── Validator
+    │   │       │   └── PhoneNumber
+    │   │       └── View
+    │   │           └── Helper
+    │   ├── zend-json
+    │   │   ├── doc
+    │   │   │   └── book
+    │   │   │       └── migration
+    │   │   └── src
+    │   │       └── Exception
+    │   ├── zend-serializer
+    │   │   ├── doc
+    │   │   │   └── book
+    │   │   └── src
+    │   │       ├── Adapter
+    │   │       └── Exception
+    │   ├── zend-servicemanager
+    │   │   ├── benchmarks
+    │   │   │   └── BenchAsset
+    │   │   └── src
+    │   │       ├── Di
+    │   │       ├── Exception
+    │   │       ├── Factory
+    │   │       ├── Proxy
+    │   │       └── Test
+    │   └── zend-stdlib
+    │       ├── benchmark
+    │       └── src
+    │           ├── ArrayUtils
+    │           ├── compatibility
+    │           ├── Exception
+    │           ├── Extractor
+    │           ├── Guard
+    │           ├── Hydrator
+    │           │   ├── Aggregate
+    │           │   ├── Filter
+    │           │   ├── Iterator
+    │           │   ├── NamingStrategy
+    │           │   └── Strategy
+    │           │       └── Exception
+    │           └── StringWrapper
+    └── zetacomponents
+        ├── base
+        │   ├── design
+        │   ├── docs
+        │   │   └── repos
+        │   │       ├── autoloads
+        │   │       ├── Me
+        │   │       └── You
+        │   ├── src
+        │   │   ├── exceptions
+        │   │   ├── interfaces
+        │   │   ├── metadata
+        │   │   ├── options
+        │   │   └── structs
+        │   └── tests
+        │       ├── autoload
+        │       ├── extra_repository
+        │       │   ├── autoload
+        │       │   └── Translation
+        │       ├── init
+        │       ├── issue15896
+        │       │   └── autoload
+        │       └── test_repository
+        │           ├── autoload_files
+        │           ├── object
+        │           └── TestClasses
+        └── document
+            ├── design
+            ├── docs
+            │   ├── img
+            │   └── tutorial
+            ├── setup
+            ├── src
+            │   ├── converters
+            │   │   ├── element_visitor
+            │   │   │   ├── docbook
+            │   │   │   │   ├── ezxml
+            │   │   │   │   ├── odt
+            │   │   │   │   │   ├── element_handlers
+            │   │   │   │   │   └── styler
+            │   │   │   │   │       └── pcss
+            │   │   │   │   │           ├── converter
+            │   │   │   │   │           ├── generator
+            │   │   │   │   │           ├── preprocessor
+            │   │   │   │   │           └── property_generator
+            │   │   │   │   ├── rst
+            │   │   │   │   ├── wiki
+            │   │   │   │   └── xhtml
+            │   │   │   └── ezxml
+            │   │   │       └── docbook
+            │   │   └── xslt
+            │   ├── document
+            │   │   ├── bbcode
+            │   │   │   ├── nodes
+            │   │   │   ├── plugins
+            │   │   │   ├── token
+            │   │   │   └── visitor
+            │   │   ├── pdf
+            │   │   │   ├── driver
+            │   │   │   ├── hyphenator
+            │   │   │   ├── image
+            │   │   │   ├── item_generator
+            │   │   │   ├── part
+            │   │   │   ├── renderer
+            │   │   │   └── tokenizer
+            │   │   ├── rst
+            │   │   │   ├── directive
+            │   │   │   ├── nodes
+            │   │   │   ├── role
+            │   │   │   └── visitor
+            │   │   ├── wiki
+            │   │   │   ├── nodes
+            │   │   │   ├── plugin
+            │   │   │   ├── token
+            │   │   │   ├── tokenizer
+            │   │   │   └── visitor
+            │   │   └── xml
+            │   │       ├── ezxml
+            │   │       │   └── schema
+            │   │       ├── odt
+            │   │       │   ├── data
+            │   │       │   ├── filter
+            │   │       │   │   ├── element
+            │   │       │   │   └── style
+            │   │       │   │       └── rule
+            │   │       │   ├── formatting
+            │   │       │   ├── list_level_style
+            │   │       │   └── style
+            │   │       └── xhtml
+            │   │           ├── filter
+            │   │           │   └── element
+            │   │           └── schema
+            │   ├── dom_elements
+            │   ├── exceptions
+            │   │   └── odt
+            │   ├── interfaces
+            │   │   └── conversions
+            │   ├── options
+            │   │   └── data
+            │   ├── pcss
+            │   │   └── style
+            │   └── tools
+            └── tests
+                ├── bbcode
+                ├── files
+                │   ├── bbcode
+                │   │   ├── docbook
+                │   │   ├── parser
+                │   │   └── tokenizer
+                │   ├── docbook
+                │   │   ├── ezxml
+                │   │   ├── odt
+                │   │   │   ├── images
+                │   │   │   └── s_005_image
+                │   │   ├── pdf
+                │   │   ├── rst
+                │   │   ├── wiki
+                │   │   ├── xhtml
+                │   │   └── xhtml_xslt
+                │   ├── ezxml
+                │   ├── fonts
+                │   ├── odt
+                │   │   ├── bad_markup
+                │   │   ├── invalid
+                │   │   └── tests
+                │   │       └── s_005_image
+                │   ├── pcss
+                │   ├── pdf
+                │   │   ├── driver
+                │   │   ├── images
+                │   │   └── renderer
+                │   ├── rst
+                │   │   ├── docbook
+                │   │   ├── parser
+                │   │   ├── tokenizer
+                │   │   ├── validation
+                │   │   ├── xhtml
+                │   │   └── xhtml_body
+                │   ├── schemas
+                │   ├── wiki
+                │   │   ├── confluence
+                │   │   ├── creole
+                │   │   ├── dokuwiki
+                │   │   └── mediawiki
+                │   └── xhtml
+                │       ├── bad_markup
+                │       ├── metadata
+                │       ├── rst_html
+                │       ├── table
+                │       ├── tests
+                │       ├── validation
+                │       └── xpath
+                ├── helper
+                ├── odt
+                │   ├── test_classes
+                │   └── test_data
+                ├── pcss
+                └── pdf
+
+1316 directories

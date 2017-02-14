@@ -27,7 +27,8 @@ This assumes the path to composer.phar is in your path.
  git clone git@github.com:paleo9/big-dummy.git
  cd bigdummy
  composer.phar dump-autoload -o
- ./vendor/bin/phpdoc -d App/ -t Documentation
+ composer update
+ ./vendor/bin/phpdoc -d App/Classes -t Documentation
 ```
 
 ## Best practices - TDD (Test Driven Development)
@@ -44,9 +45,8 @@ Using methods with a few lines of code is usually a Good Thing
 * WTF count stays low
 
 ## Running the tests
-From the App directory:
 ```bash
-phpunit --bootstrap Classes/*.php  tests/ --colors=always
+phpunit --bootstrap App/Classes/*.php  App/tests/ --colors=always
 ```
 ## Creating the documentation
 ```bash
@@ -55,12 +55,14 @@ phpdoc -d ./App/Classes -t ./documentation
 
 ## Questions
 
-### Ten thousand directories for a quick demo - are you kidding?
-When this dummy project is fully populated, i.e. after composer has been run,
-there are thousands of directories. The demo itself contains only two
-subdirectories, 'Classes' and 'tests', the rest are created by the of
-development libraries, in particular phpunit and phpdoc, these will not appear
-in production.
+### Over a thousand directories for a quick demo - are you kidding?
+After composer has installed the project's dependencies, there will be
+over a thousand directories. The demo itself contains only two subdirectories,
+'Classes' and 'tests', the rest are created by the of development libraries, in
+particular phpunit and phpdoc, these will not appear in production.
+
+If you would like to see the complete directory tree after the dependencies
+have been downloaded, take a look at 'project-directory-tree.txt'.
 
 ### There are a lot of comments, how much time does it waste?
 The comments are written in a format that makes it possible to produce
