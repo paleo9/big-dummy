@@ -24,7 +24,7 @@ This assumes the path to composer.phar is in your path.
 
 # To Build the App
 ```bash
- git clone git@github.com:paleo9/big-dummy.git
+ git clone https://github.com/paleo9/big-dummy.git
  cd bigdummy
  composer.phar dump-autoload -o
  composer update
