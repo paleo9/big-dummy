@@ -1,5 +1,9 @@
 # Read Me Big Dummy Project
 
+# ARCHIVED 2023
+This repository was created for an exercise in using PHP tools as described below under the heading 'Purpose'.
+I have now archived it so that it is still available to read, but not maintained.
+
 ## Purpose
 Provide an ultra simple PHP project to explore best practices. Currently
 implemented are:
